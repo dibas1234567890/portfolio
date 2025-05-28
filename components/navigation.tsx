@@ -3,13 +3,14 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
-import { Terminal, User, Briefcase, Code, Mail } from "lucide-react"
+import { Terminal, User, Briefcase, Code, Mail, BookOpen } from "lucide-react"
 
 const navItems = [
   { href: "/", label: "Home", icon: Terminal },
   { href: "/about", label: "About", icon: User },
   { href: "/experience", label: "Experience", icon: Briefcase },
   { href: "/projects", label: "Projects", icon: Code },
+  { href: "/blog", label: "Blog", icon: BookOpen },
   { href: "/contact", label: "Contact", icon: Mail },
 ]
 
