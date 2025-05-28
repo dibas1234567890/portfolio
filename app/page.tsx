@@ -8,13 +8,10 @@ export default function Home() {
 
   return (
     <div className="pt-16">
-      {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-        {/* Animated background grid */}
         <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,255,0.03)_1px,transparent_1px)] bg-[size:50px_50px] animate-pulse"></div>
 
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
-          {/* Left side - Text content */}
           <div className="space-y-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2 text-cyan-400 font-mono text-sm">
@@ -74,14 +71,10 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right side - Cyberpunk Stick Figure */}
           <div className="relative">
-            {/* Stick Figure with cyberpunk frame */}
             <div className="relative mx-auto w-80 h-80 lg:w-96 lg:h-96">
-              {/* Neon frame effect */}
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-pink-400 to-purple-400 rounded-lg p-1">
                 <div className="w-full h-full bg-black rounded-lg flex items-center justify-center overflow-hidden">
-                  {/* Cyberpunk Stick Figure SVG */}
                   <svg
                     width="200"
                     height="280"
@@ -104,7 +97,6 @@ export default function Home() {
                       </filter>
                     </defs>
 
-                    {/* Head */}
                     <circle
                       cx="100"
                       cy="40"
@@ -115,7 +107,6 @@ export default function Home() {
                       filter="url(#glow)"
                     />
 
-                    {/* Body */}
                     <line
                       x1="100"
                       y1="65"
@@ -126,7 +117,6 @@ export default function Home() {
                       filter="url(#glow)"
                     />
 
-                    {/* Arms */}
                     <line
                       x1="100"
                       y1="100"
@@ -146,7 +136,6 @@ export default function Home() {
                       filter="url(#glow)"
                     />
 
-                    {/* Legs */}
                     <line
                       x1="100"
                       y1="180"
@@ -166,8 +155,6 @@ export default function Home() {
                       filter="url(#glow)"
                     />
 
-                    {/* Cyberpunk Elements */}
-                    {/* Laptop/Device in hand */}
                     <rect
                       x="35"
                       y="125"
@@ -179,13 +166,11 @@ export default function Home() {
                       filter="url(#glow)"
                     />
 
-                    {/* Neural network nodes around head */}
                     <circle cx="75" cy="25" r="3" fill="#ec4899" className="animate-pulse" />
                     <circle cx="125" cy="25" r="3" fill="#06b6d4" className="animate-pulse delay-300" />
                     <circle cx="85" cy="55" r="2" fill="#8b5cf6" className="animate-pulse delay-500" />
                     <circle cx="115" cy="55" r="2" fill="#10b981" className="animate-pulse delay-700" />
 
-                    {/* Connection lines */}
                     <line
                       x1="75"
                       y1="25"
@@ -207,7 +192,6 @@ export default function Home() {
                       className="animate-pulse delay-300"
                     />
 
-                    {/* Code symbols floating around */}
                     <text x="150" y="80" fill="#06b6d4" fontSize="12" fontFamily="monospace" className="animate-pulse">
                       {"</>"}
                     </text>
@@ -235,13 +219,11 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Floating elements */}
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-cyan-400 rounded-full animate-pulse"></div>
               <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-pink-400 rounded-full animate-pulse delay-300"></div>
               <div className="absolute top-1/2 -left-8 w-4 h-4 bg-purple-400 rounded-full animate-pulse delay-700"></div>
             </div>
 
-            {/* Floating tech icons */}
             <div className="absolute top-8 right-8 animate-float">
               <Brain className="w-8 h-8 text-cyan-400" />
             </div>
@@ -255,7 +237,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Quick Stats */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 border-t border-cyan-500/20">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

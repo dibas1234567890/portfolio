@@ -10,6 +10,19 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mon
 export const metadata: Metadata = {
   title: "Dibas Pratap Basnet - AI/ML Engineer",
   description: "AI/ML Engineer specializing in LLM-driven applications and automation",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.png",
+        type: "image/svg+xml",
+      },
+      {
+        url: "/favicon.ico",
+        sizes: "16x16",
+        type: "image/x-icon",
+      },
+    ],
+  },
     generator: 'v0.dev'
 }
 
@@ -20,6 +33,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <link rel="icon" href="/favicon.png" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.ico" sizes="16x16" type="image/x-icon" />
+      </head>
       <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans bg-black text-white antialiased`}>
         <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
           <Navigation />

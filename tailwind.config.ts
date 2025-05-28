@@ -57,7 +57,6 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Cyberpunk neon colors
         neon: {
           cyan: "#00ffff",
           pink: "#ff00ff",

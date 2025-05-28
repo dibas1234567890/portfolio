@@ -1,8 +1,11 @@
 {
   "/_not-found/page": "/_not-found",
   "/about/page": "/about",
-  "/experience/page": "/experience",
+  "/blog/[slug]/page": "/blog/[slug]",
   "/contact/page": "/contact",
-  "/projects/page": "/projects",
-  "/page": "/"
+  "/experience/page": "/experience",
+  "/blog/page": "/blog",
+  "/page": "/",
+  "/projects/[slug]/page": "/projects/[slug]",
+  "/projects/page": "/projects"
 }

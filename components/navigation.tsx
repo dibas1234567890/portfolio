@@ -46,7 +46,6 @@ export default function Navigation() {
             })}
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden">
             <button className="text-gray-300 hover:text-cyan-400">
               <Terminal className="w-6 h-6" />

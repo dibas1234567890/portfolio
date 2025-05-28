@@ -68,7 +68,6 @@
   }
 }
 
-/* Custom animations */
 @keyframes float {
   0%,
   100% {
@@ -83,7 +82,6 @@
   animation: float 3s ease-in-out infinite;
 }
 
-/* Cyberpunk glow effects */
 .glow-cyan {
   box-shadow: 0 0 20px rgba(34, 211, 238, 0.3);
 }
@@ -92,7 +90,6 @@
   box-shadow: 0 0 20px rgba(236, 72, 153, 0.3);
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -110,13 +107,11 @@
   background: linear-gradient(to bottom, #0891b2, #db2777);
 }
 
-/* Text selection */
 ::selection {
   background: rgba(34, 211, 238, 0.3);
   color: white;
 }
 
-/* Smooth transitions */
 * {
   transition: border-color 0.3s ease;
 }
